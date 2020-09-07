@@ -610,7 +610,7 @@ object SettingsForm: TSettingsForm
         AnchorSideTop.Side = asrBottom
         Left = 307
         Height = 25
-        Top = 174
+        Top = 176
         Width = 75
         Anchors = []
         BorderSpacing.Top = 16
@@ -639,7 +639,7 @@ object SettingsForm: TSettingsForm
         AnchorSideTop.Side = asrBottom
         Left = 307
         Height = 25
-        Top = 203
+        Top = 205
         Width = 75
         Anchors = []
         BorderSpacing.Top = 4
@@ -747,7 +747,7 @@ object SettingsForm: TSettingsForm
         AnchorSideTop.Side = asrBottom
         Left = 307
         Height = 25
-        Top = 232
+        Top = 234
         Width = 75
         Anchors = []
         BorderSpacing.Top = 4
