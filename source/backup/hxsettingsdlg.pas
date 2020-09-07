@@ -159,7 +159,6 @@ procedure TSettingsForm.FormatChanged(Sender: TObject);
 var
   params: THexParams;
 begin
-  params := Default(THexParams);
   ParamsFromControls(params);
   ApplyParamsToHexEditor(params, FSampleHexEditor);
 end;
