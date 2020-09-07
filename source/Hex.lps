@@ -1,107 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
-  <ProjectOptions>
-    <Version Value="11"/>
+  <ProjectSession>
     <PathDelim Value="\"/>
-    <General>
-      <SessionStorage Value="InProjectDir"/>
-      <MainUnit Value="0"/>
-      <Title Value="Hex"/>
-      <Scaled Value="True"/>
-      <ResourceType Value="res"/>
-      <UseXPManifest Value="True"/>
-      <XPManifest>
-        <DpiAware Value="True"/>
-      </XPManifest>
-      <Icon Value="0"/>
-    </General>
-    <BuildModes Count="3">
-      <Item1 Name="Default" Default="True"/>
-      <Item2 Name="Debug">
-        <CompilerOptions>
-          <Version Value="11"/>
-          <PathDelim Value="\"/>
-          <Target>
-            <Filename Value="../bin/$(TargetCPU)-$(TargetOS)/Hex"/>
-          </Target>
-          <SearchPaths>
-            <IncludeFiles Value="$(ProjOutDir)"/>
-            <OtherUnitFiles Value="thirdparty"/>
-            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
-          </SearchPaths>
-          <Parsing>
-            <SyntaxOptions>
-              <IncludeAssertionCode Value="True"/>
-            </SyntaxOptions>
-          </Parsing>
-          <CodeGeneration>
-            <Checks>
-              <IOChecks Value="True"/>
-              <RangeChecks Value="True"/>
-              <OverflowChecks Value="True"/>
-              <StackChecks Value="True"/>
-            </Checks>
-          </CodeGeneration>
-          <Linking>
-            <Debugging>
-              <DebugInfoType Value="dsDwarf2Set"/>
-              <UseExternalDbgSyms Value="True"/>
-            </Debugging>
-            <Options>
-              <Win32>
-                <GraphicApplication Value="True"/>
-              </Win32>
-            </Options>
-          </Linking>
-        </CompilerOptions>
-      </Item2>
-      <Item3 Name="Release">
-        <CompilerOptions>
-          <Version Value="11"/>
-          <PathDelim Value="\"/>
-          <Target>
-            <Filename Value="../bin/$(TargetCPU)-$(TargetOS)/Hex"/>
-          </Target>
-          <SearchPaths>
-            <IncludeFiles Value="$(ProjOutDir)"/>
-            <OtherUnitFiles Value="thirdparty"/>
-            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
-          </SearchPaths>
-          <CodeGeneration>
-            <SmartLinkUnit Value="True"/>
-            <Optimizations>
-              <OptimizationLevel Value="3"/>
-            </Optimizations>
-          </CodeGeneration>
-          <Linking>
-            <Debugging>
-              <GenerateDebugInfo Value="False"/>
-            </Debugging>
-            <LinkSmart Value="True"/>
-          </Linking>
-        </CompilerOptions>
-      </Item3>
-    </BuildModes>
-    <PublishOptions>
-      <Version Value="2"/>
-      <UseFileFilters Value="True"/>
-    </PublishOptions>
-    <RunParams>
-      <FormatVersion Value="2"/>
-      <Modes Count="0"/>
-    </RunParams>
-    <RequiredPackages Count="2">
-      <Item1>
-        <PackageName Value="SynEdit"/>
-      </Item1>
-      <Item2>
-        <PackageName Value="LCL"/>
-      </Item2>
-    </RequiredPackages>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
     <Units Count="24">
       <Unit0>
         <Filename Value="Hex.lpr"/>
         <IsPartOfProject Value="True"/>
+        <UsageCount Value="21"/>
       </Unit0>
       <Unit1>
         <Filename Value="hxmain.pas"/>
@@ -110,6 +17,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="hxMain"/>
+        <TopLine Value="573"/>
+        <CursorPos X="77" Y="730"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="hxhexeditorframe.pas"/>
@@ -118,30 +30,41 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
         <UnitName Value="hxHexEditorFrame"/>
+        <UsageCount Value="21"/>
       </Unit2>
       <Unit3>
         <Filename Value="hxglobal.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="hxGlobal"/>
+        <UsageCount Value="21"/>
       </Unit3>
       <Unit4>
         <Filename Value="hxstrings.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="hxStrings"/>
+        <UsageCount Value="21"/>
       </Unit4>
       <Unit5>
         <Filename Value="hxutils.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="hxUtils"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="889"/>
+        <CursorPos X="19" Y="891"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
       </Unit5>
       <Unit6>
         <Filename Value="thirdparty\mrumanager.pp"/>
         <IsPartOfProject Value="True"/>
+        <UsageCount Value="21"/>
       </Unit6>
       <Unit7>
         <Filename Value="thirdparty\mphexeditor.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="MPHexEditor"/>
+        <UsageCount Value="21"/>
       </Unit7>
       <Unit8>
         <Filename Value="hxdatamodule.pas"/>
@@ -150,6 +73,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="hxDataModule"/>
+        <UsageCount Value="21"/>
       </Unit8>
       <Unit9>
         <Filename Value="hxbasicviewerframe.pas"/>
@@ -158,6 +82,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
         <UnitName Value="hxBasicViewerFrame"/>
+        <UsageCount Value="21"/>
       </Unit9>
       <Unit10>
         <Filename Value="hxdataviewerframe.pas"/>
@@ -166,6 +91,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
         <UnitName Value="hxDataViewerFrame"/>
+        <UsageCount Value="21"/>
       </Unit10>
       <Unit11>
         <Filename Value="hxsettingsdlg.pas"/>
@@ -174,6 +100,12 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="hxSettingsDlg"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="93"/>
+        <CursorPos X="56" Y="110"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit11>
       <Unit12>
         <Filename Value="hxgotodlg.pas"/>
@@ -182,6 +114,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="hxGotoDlg"/>
+        <UsageCount Value="21"/>
       </Unit12>
       <Unit13>
         <Filename Value="hxrecordviewerframe.pas"/>
@@ -190,6 +123,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
         <UnitName Value="hxRecordViewerFrame"/>
+        <UsageCount Value="21"/>
       </Unit13>
       <Unit14>
         <Filename Value="hxrecordeditorform.pas"/>
@@ -198,16 +132,19 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="hxRecordEditorForm"/>
+        <UsageCount Value="21"/>
       </Unit14>
       <Unit15>
         <Filename Value="hxvieweritems.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="hxViewerItems"/>
+        <UsageCount Value="21"/>
       </Unit15>
       <Unit16>
         <Filename Value="hxviewergrids.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="hxViewerGrids"/>
+        <UsageCount Value="21"/>
       </Unit16>
       <Unit17>
         <Filename Value="hxobjectviewerframe.pas"/>
@@ -216,6 +153,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
         <UnitName Value="hxObjectViewerFrame"/>
+        <UsageCount Value="21"/>
       </Unit17>
       <Unit18>
         <Filename Value="hxgridviewerframe.pas"/>
@@ -224,6 +162,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
         <UnitName Value="hxGridViewerFrame"/>
+        <UsageCount Value="21"/>
       </Unit18>
       <Unit19>
         <Filename Value="hxabout.pas"/>
@@ -232,6 +171,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="hxAbout"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="56" Y="8"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit19>
       <Unit20>
         <Filename Value="hxpascalrecordform.pas"/>
@@ -240,6 +184,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="hxPascalRecordForm"/>
+        <UsageCount Value="21"/>
       </Unit20>
       <Unit21>
         <Filename Value="hxsearchreplacedlg.pas"/>
@@ -248,45 +193,73 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="hxSearchReplaceDlg"/>
+        <UsageCount Value="21"/>
       </Unit21>
       <Unit22>
         <Filename Value="hxhexeditor.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="hxHexEditor"/>
+        <UsageCount Value="21"/>
       </Unit22>
       <Unit23>
         <Filename Value="thirdparty\mphexeditorex.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="MPHexEditorEx"/>
+        <UsageCount Value="21"/>
       </Unit23>
     </Units>
-  </ProjectOptions>
-  <CompilerOptions>
-    <Version Value="11"/>
-    <PathDelim Value="\"/>
-    <Target>
-      <Filename Value="../bin/$(TargetCPU)-$(TargetOS)/Hex"/>
-    </Target>
-    <SearchPaths>
-      <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="thirdparty"/>
-      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
-    </SearchPaths>
-  </CompilerOptions>
-  <Debugging>
-    <Exceptions Count="4">
-      <Item1>
-        <Name Value="EAbort"/>
-      </Item1>
-      <Item2>
-        <Name Value="ECodetoolError"/>
-      </Item2>
-      <Item3>
-        <Name Value="EFOpenError"/>
-      </Item3>
-      <Item4>
-        <Name Value="ELayoutException"/>
-      </Item4>
-    </Exceptions>
-  </Debugging>
+    <JumpHistory Count="12" HistoryIndex="11">
+      <Position1>
+        <Filename Value="hxsettingsdlg.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="hxsettingsdlg.pas"/>
+        <Caret Line="576" Column="17" TopLine="557"/>
+      </Position2>
+      <Position3>
+        <Filename Value="hxsettingsdlg.pas"/>
+        <Caret Line="458" Column="15" TopLine="439"/>
+      </Position3>
+      <Position4>
+        <Filename Value="hxsettingsdlg.pas"/>
+        <Caret Line="359" Column="31" TopLine="340"/>
+      </Position4>
+      <Position5>
+        <Filename Value="hxsettingsdlg.pas"/>
+        <Caret Line="356" Column="17" TopLine="340"/>
+      </Position5>
+      <Position6>
+        <Filename Value="hxsettingsdlg.pas"/>
+        <Caret Line="110" Column="56" TopLine="93"/>
+      </Position6>
+      <Position7>
+        <Filename Value="hxsettingsdlg.pas"/>
+        <Caret Line="617" Column="5" TopLine="581"/>
+      </Position7>
+      <Position8>
+        <Filename Value="hxsettingsdlg.pas"/>
+        <Caret Line="162" Column="33" TopLine="144"/>
+      </Position8>
+      <Position9>
+        <Filename Value="hxsettingsdlg.pas"/>
+        <Caret Line="110" Column="56" TopLine="93"/>
+      </Position9>
+      <Position10>
+        <Filename Value="hxabout.pas"/>
+        <Caret Line="8" Column="56"/>
+      </Position10>
+      <Position11>
+        <Filename Value="hxsettingsdlg.pas"/>
+        <Caret Line="110" Column="56" TopLine="93"/>
+      </Position11>
+      <Position12>
+        <Filename Value="hxutils.pas"/>
+        <Caret Line="894" Column="13" TopLine="873"/>
+      </Position12>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
 </CONFIG>
